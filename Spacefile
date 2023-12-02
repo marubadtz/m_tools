@@ -1,0 +1,12 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+icon: ./app/assets/m-tools.png
+micros:
+  - name: m-tools
+    src: ./app/
+    engine: python3.9
+    primary: true
+    run: gunicorn app:server
+    dev: python3 app.py
+    public_routes:
+      - "/*"

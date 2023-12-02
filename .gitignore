@@ -1,0 +1,7 @@
+scripts/
+json_exmp/
+.spaceignore
+.space
+.venv
+config.py
+__pycache__
