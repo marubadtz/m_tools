@@ -13,7 +13,7 @@ auth = dash_auth.BasicAuth(app, VALID_USERNAME_PASSWORD_PAIRS)
 
 server = app.server
 app.title = "Marcom Tools"
-app._favicon = ('favicon64r.png')
+app._favicon = ('favicon64nobg.png')
 
 # Functions
 # Get ready to format url
