@@ -6,7 +6,7 @@ import json
 from collections import OrderedDict
 import config
 
-# App setup
+# App setup 
 VALID_USERNAME_PASSWORD_PAIRS = {config.USERNAME: config.PASSWORD}
 app = Dash(__name__, external_stylesheets=[dbc.themes.CYBORG])
 auth = dash_auth.BasicAuth(app, VALID_USERNAME_PASSWORD_PAIRS)
